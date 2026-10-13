@@ -1,0 +1,71 @@
+#root{
+  background-color: #a5d1ca;
+  margin: 0;
+  padding: 20px;
+  color: rgb(94, 93, 93);
+  text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.userAwatar{
+  width: 300px;
+}
+
+.panDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pasekWyswietlany{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+}
+
+.test1{
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 100px;
+  height: 200px;
+  margin: 8px;
+}
+
+.serce-placeholder{
+  width: 100px;
+  margin-top: 10px;
+}
+
+.mainSide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;
+  gap: 200px;
+}
+
+aside{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  margin: 20px;
+}

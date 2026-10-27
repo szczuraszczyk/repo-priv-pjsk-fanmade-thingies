@@ -1,5 +1,6 @@
 
 ## fan-made strona dla kilku specyficznych rzeczy z gry Project Sekai: Colorful Stage! _[pjsk]_
+- link do figmy : https://www.figma.com/design/nbAZk4WBSMTaEB6a9pivhV/pjsk-helper?node-id=0-1&t=DhgIo3RKjq6wItrK-1
 ### główny zamysł podstron/funkcji:
 1. (która głównie przysunęła tą stronę do głowy): customizowanie obramowania _[<ins>frame</ins>]_ z _eventu_ "Connect to SEKAI!", inaczej _<ins>finale2</ins>_. _frame_ ma 6 części dla których można wybrać jeden z 26 dostępnych kolorów {każdy kolor należy do jednej z postaci},
    - jako dodatek, dodać opcję wyboru czy ma to być _frame_ z eventu "Wishes in Bloom!", inaczej _<ins>finale1</ins>_, czy _finale2_ .

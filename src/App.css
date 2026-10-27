@@ -1,19 +1,58 @@
-#root{
-  background-color: #a5d1ca;
+#root {
+  background-color: #b5d9e7;
   margin: 0;
   padding: 20px;
   color: rgb(94, 93, 93);
   text-align: center;
 }
 
-header{
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 14px;
+}
+
+.mainTitle {
+  font-size: 34px;
+  font-weight: bold;
+  font-family:
+    Consolas,
+    sans-serif;
+  color: rgb(109, 142, 161);
+}
+
+.time {
+  font-size: 24px;
+  font-weight: bold;
+  font-family:
+    Century Gothic,
+    sans-serif;
+  color: rgb(109, 142, 161);
+  margin: 0;
+  padding: 0;
+}
+
+.date {
+  font-size: 14px;
+  font-family:
+    Century Gothic,
+    sans-serif;
+  color: rgb(109, 142, 161);
+  margin: 0;
+  padding: 0;
+}
+
+/* header{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
-}
-.userAwatar{
+} */
+
+/* .userAwatar{
   width: 300px;
 }
 
@@ -53,19 +92,10 @@ header{
   margin-top: 20px;
 }
 
-.main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  padding: 0;
-  gap: 200px;
-}
-
 aside{
   display: flex;
   justify-content: right;
   align-items: right;
   flex-direction: column;
   margin: 20px;
-}
+} */

@@ -1,22 +1,24 @@
-import { useState } from "react";
 import "./App.css";
 import Clock from "./strony/Clock";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const handleClick = () => {
-    setCount(count + 1);
-    console.log("Kliknięto serce! Aktualna liczba kliknięć: " + count);
-  };
+  // const [count, setCount] = useState(0);
+  // const handleClick = () => {
+  //   setCount(count + 1);
+  //   console.log("Kliknięto serce! Aktualna liczba kliknięć: " + count);
+  // };
 
   return (
     <>
+      <div className="main">
+        <p className="mainTitle">pjsk player's helper</p>
+      </div>
 
-      <Clock />
+      <div className="clock">
+        <Clock />
+      </div>
 
-      
-
-        {/* <div className="main">
+      {/* <div className="main">
           <div className="mainSide">
         <header>
           <img
@@ -97,7 +99,6 @@ function App() {
         <Route path="/" element={<StronaPlaceholder />} /> // Strona główna
         <Route path="/stronka2" element={<StronkaPlace2 />} /> // Strona 2
       </Routes> */}
-
     </>
   );
 }

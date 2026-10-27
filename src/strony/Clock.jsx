@@ -11,14 +11,17 @@ function Clock() {
         return () => clearInterval(interval);
     }, []);
 
-    const formattedTime = timeNow.toLocaleTimeString();
-    // const formattedDate = timeNow.toLocaleDateString();
+    const userTime = timeNow.toLocaleTimeString();
+    const userDate = timeNow.toLocaleDateString();
+
+    //pjsk pdt
+    
 
     return (
-        <div className="clock">
-            <p className="time">{formattedTime}</p>
-            {/* <p>{formattedDate}</p> */}
-        </div>
+        <>
+            <p className="time">{userTime}</p>
+            <p className="date">{userDate}</p>
+        </>
     );
 }
 

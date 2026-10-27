@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router";
 import "./App.css";
-import StronaPlaceholder from "./strony/StronaPlaceholder";
-import StronkaPlace2 from "./strony/StronkaPlace2";
+import Clock from "./strony/Clock";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +11,11 @@ function App() {
 
   return (
     <>
+
+      <Clock />
+
+      
+
         {/* <div className="main">
           <div className="mainSide">
         <header>
@@ -90,12 +93,10 @@ function App() {
         <p>&copy; 2026 My App. All rights reserved.</p>
       </footer> */}
 
-      <h1>biblioteka</h1>
-
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<StronaPlaceholder />} /> // Strona główna
         <Route path="/stronka2" element={<StronkaPlace2 />} /> // Strona 2
-      </Routes>
+      </Routes> */}
 
     </>
   );
